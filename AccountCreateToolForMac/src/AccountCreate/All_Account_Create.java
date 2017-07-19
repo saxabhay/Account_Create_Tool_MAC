@@ -185,7 +185,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			if (mp.equals("UK")) {
 				System.out.println("Your UK account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
@@ -348,7 +348,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			else if (mp.equals("US")) {
 				System.out.println("Your US account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
 				WebDriver driver = new ChromeDriver(options);
@@ -378,19 +378,19 @@ public class All_Account_Create extends JFrame implements ActionListener {
 				driver.findElement(By.xpath("//span[text()=' Change ']")).click();
 
 				WebElement address1 = driver.findElement(By.id("adr_AddressLine1"));
-				actions.moveToElement(address1).click().sendKeys("40 Pacifica");
+				actions.moveToElement(address1).click().sendKeys("21005 64th Ave S, Kent, WA 98032, USA");
 				actions.build().perform();
 
 				WebElement city = driver.findElement(By.id("adr_City"));
-				actions.moveToElement(city).click().sendKeys("Irvine");
+				actions.moveToElement(city).click().sendKeys("WA");
 				actions.build().perform();
 
 				WebElement state = driver.findElement(By.id("adr_StateOrRegion"));
-				actions.moveToElement(state).click().sendKeys("CA");
+				actions.moveToElement(state).click().sendKeys("WA");
 				actions.build().perform();
 
 				WebElement zip = driver.findElement(By.id("adr_PostalCode"));
-				actions.moveToElement(zip).click().sendKeys("92618");
+				actions.moveToElement(zip).click().sendKeys("98032");
 				actions.build().perform();
 
 				WebElement phone = driver.findElement(By.id("adr_PhoneNumber"));
@@ -509,7 +509,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			else if (mp.equals("DE")) {
 				System.out.println("Your DE account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
 				WebDriver driver = new ChromeDriver(options);
@@ -668,7 +668,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			else if (mp.equals("JP")) {
 				System.out.println("Your JP account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
 				WebDriver driver = new ChromeDriver(options);
@@ -829,7 +829,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			else if (mp.equals("FR")) {
 				System.out.println("Your FR account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
 				WebDriver driver = new ChromeDriver(options);
@@ -991,7 +991,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			else if (mp.equals("IT")) {
 				System.out.println("Your IT account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
 				WebDriver driver = new ChromeDriver(options);
@@ -1153,7 +1153,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			else if (mp.equals("ES")) {
 				System.out.println("Your ES account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
 				WebDriver driver = new ChromeDriver(options);
@@ -1313,7 +1313,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			else if (mp.equals("CA")) {
 				System.out.println("Your CA account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
 				WebDriver driver = new ChromeDriver(options);
@@ -1472,7 +1472,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			else if (mp.equals("IN")) {
 				System.out.println("Your IN account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
 				WebDriver driver = new ChromeDriver(options);
@@ -1663,7 +1663,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 			else if (mp.equals("CN")) {
 				System.out.println("Your CN account is Creating Please Wait...");
 				System.setProperty("webdriver.chrome.driver",
-						"/Users/saxabhay/git/AccountCreatorTool/driver/chromedriver");
+						"./driver/chromedriver");
 				ChromeOptions options = new ChromeOptions();
 				options.addArguments("window-size=1400,800");
 				WebDriver driver = new ChromeDriver(options);
