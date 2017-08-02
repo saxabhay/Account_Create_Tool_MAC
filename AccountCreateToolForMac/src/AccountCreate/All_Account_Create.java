@@ -1728,7 +1728,7 @@ public class All_Account_Create extends JFrame implements ActionListener {
 					e.printStackTrace();
 				}
 
-				driver.navigate().refresh();
+				//driver.navigate().refresh();
 				driver.findElement(By.xpath("//span[text()=' Edit Payment Method ']")).click();
 
 				driver.findElement(By.xpath("//span[text()='Use this address']")).click();
